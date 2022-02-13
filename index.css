@@ -1,42 +1,13 @@
-.main-desc {
-  display: flex;
-  width: 100%;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.info {
-  display: flex;
-  align-items: center;
-  font-size: small;
-}
-
-.info > p {
-  color: rgba(0, 0, 0, 0.4);
-  margin: 0 10px;
-}
-
-.info > p > span {
-  color: rgba(0, 0, 0, 0.8);
-  margin: 0 5px;
-}
-
-.arrow {
-  font-size: 2rem;
-  color: rgba(0, 0, 0, 0.25);
-}
-
-.all-options > .MuiSvgIcon-root {
-  color: rgba(0, 0, 0, 0.25);
-  font-size: large;
-  margin: 5px 0;
-}
-
-/* .ql-syntax {
-  display: flex;
-  width: 90%;
-  overflow: hidden;
-} */
-pre {
-  display: flex;
-  width: 90px;
-  flex-wrap: wrap;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
